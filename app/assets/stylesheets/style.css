@@ -1,0 +1,84 @@
+body{
+	//background-color: #D7423C; /* Orangish */
+	//background-color: #302922; /* Brown */
+	//background-color: #E06560; /* Light pink */
+	//background-color: #2A3642; /* Bluish Grey */
+	background-color: #f8e9c0; /* Light Yellowish */
+	background-color: #7497d9; /* Light Yellowish */
+
+}
+#book{
+	width:1200px;
+	height:800px;
+	margin: auto;
+}
+
+#book .turn-page{
+	background-color:white;
+}
+
+#book .cover{
+	background-image:url(/assets/ice_candle.gif);
+	background-size: cover;
+	//background-repeat: no-repeat;
+	//background-position: center;
+}
+
+#book .cover h1{
+	color:white;
+	text-align:center;
+	font-size:50px;
+	line-height:500px;
+	margin:0px;
+}
+
+#book .loader{
+	background-image:url(/assets/book-write.gif);
+	width:32px;
+	height:32px;
+	display:block;
+	position:absolute;
+	top:238px;
+	left:188px;
+}
+
+#book .data{
+	text-align:center;
+	font-size:40px;
+	color:#999;
+	line-height:500px;
+}
+
+#controls{
+	width:800px;
+	text-align:center;
+	margin:20px 0px;
+	font:30px arial;
+}
+
+#controls input, #controls label{
+	font:30px arial;
+}
+
+#book .odd{
+	background-image:-webkit-linear-gradient(left, #FFF 95%, #ddd 100%);
+	background-image:-moz-linear-gradient(left, #FFF 95%, #ddd 100%);
+	background-image:-o-linear-gradient(left, #FFF 95%, #ddd 100%);
+	background-image:-ms-linear-gradient(left, #FFF 95%, #ddd 100%);
+}
+
+#book .even{
+	background-image:-webkit-linear-gradient(right, #FFF 95%, #ddd 100%);
+	background-image:-moz-linear-gradient(right, #FFF 95%, #ddd 100%);
+	background-image:-o-linear-gradient(right, #FFF 95%, #ddd 100%);
+	background-image:-ms-linear-gradient(right, #FFF 95%, #ddd 100%);
+}
+
+.ret {
+		width: 520px;
+}
+
+.one {
+background-image:-webkit-linear-gradient(right, #FFF 95%, #ddd 100%);
+background-image:-webkit-linear-gradient(left, #FFF 95%, #ddd 100%);
+}
